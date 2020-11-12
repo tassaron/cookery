@@ -537,7 +537,7 @@ class Spawner(InvisibleEntity):
                     doit()
                 #print 'tock'+str(ch)
             else:
-                # just fuckin do it mang
+                # just do it mang
                 doit()
 
 class MinigameController(InvisibleEntity):
@@ -688,7 +688,7 @@ class beerDrop(NonclickableEntity):
 #   Crap At The Bottom
 #=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~==~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=#
 def debug():
-    print Game
+    print(Game)
 
 def tick(dt):
     Game.tick(dt)
